@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F24521215D30CD500438B76 /* PushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24521115D30CD500438B76 /* PushController.m */; };
+		4F63C63D15D1055A0076D92F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F63C63C15D1055A0076D92F /* Cocoa.framework */; };
+		4F63C64715D1055A0076D92F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F63C64515D1055A0076D92F /* InfoPlist.strings */; };
+		4F63C64915D1055A0076D92F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F63C64815D1055A0076D92F /* main.m */; };
+		4F63C64D15D1055A0076D92F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4F63C64B15D1055A0076D92F /* Credits.rtf */; };
+		4F63C65015D1055A0076D92F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F63C64F15D1055A0076D92F /* AppDelegate.m */; };
+		4F63C65315D1055A0076D92F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F63C65115D1055A0076D92F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F24521015D30CD500438B76 /* PushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushController.h; sourceTree = "<group>"; };
+		4F24521115D30CD500438B76 /* PushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushController.m; sourceTree = "<group>"; };
+		4F63C63815D1055A0076D92F /* GistFlowUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistFlowUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F63C63C15D1055A0076D92F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F63C63F15D1055A0076D92F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4F63C64015D1055A0076D92F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4F63C64115D1055A0076D92F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F63C64415D1055A0076D92F /* GistFlowUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GistFlowUploader-Info.plist"; sourceTree = "<group>"; };
+		4F63C64615D1055A0076D92F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F63C64815D1055A0076D92F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F63C64A15D1055A0076D92F /* GistFlowUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GistFlowUploader-Prefix.pch"; sourceTree = "<group>"; };
+		4F63C64C15D1055A0076D92F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4F63C64E15D1055A0076D92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F63C64F15D1055A0076D92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F63C65215D1055A0076D92F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F63C63515D1055A0076D92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F63C63D15D1055A0076D92F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F63C62D15D1055A0076D92F = {
+			isa = PBXGroup;
+			children = (
+				4F63C64215D1055A0076D92F /* GistFlowUploader */,
+				4F63C63B15D1055A0076D92F /* Frameworks */,
+				4F63C63915D1055A0076D92F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F63C63915D1055A0076D92F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F63C63815D1055A0076D92F /* GistFlowUploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F63C63B15D1055A0076D92F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F63C63C15D1055A0076D92F /* Cocoa.framework */,
+				4F63C63E15D1055A0076D92F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F63C63E15D1055A0076D92F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F63C63F15D1055A0076D92F /* AppKit.framework */,
+				4F63C64015D1055A0076D92F /* CoreData.framework */,
+				4F63C64115D1055A0076D92F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4F63C64215D1055A0076D92F /* GistFlowUploader */ = {
+			isa = PBXGroup;
+			children = (
+				4F24521015D30CD500438B76 /* PushController.h */,
+				4F24521115D30CD500438B76 /* PushController.m */,
+				4F63C64E15D1055A0076D92F /* AppDelegate.h */,
+				4F63C64F15D1055A0076D92F /* AppDelegate.m */,
+				4F63C65115D1055A0076D92F /* MainMenu.xib */,
+				4F63C64315D1055A0076D92F /* Supporting Files */,
+			);
+			name = GistFlowUploader;
+			path = HelloButtons;
+			sourceTree = "<group>";
+		};
+		4F63C64315D1055A0076D92F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F63C64415D1055A0076D92F /* GistFlowUploader-Info.plist */,
+				4F63C64515D1055A0076D92F /* InfoPlist.strings */,
+				4F63C64815D1055A0076D92F /* main.m */,
+				4F63C64A15D1055A0076D92F /* GistFlowUploader-Prefix.pch */,
+				4F63C64B15D1055A0076D92F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F63C63715D1055A0076D92F /* GistFlowUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F63C65615D1055A0076D92F /* Build configuration list for PBXNativeTarget "GistFlowUploader" */;
+			buildPhases = (
+				4F63C63415D1055A0076D92F /* Sources */,
+				4F63C63515D1055A0076D92F /* Frameworks */,
+				4F63C63615D1055A0076D92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GistFlowUploader;
+			productName = HelloButtons;
+			productReference = 4F63C63815D1055A0076D92F /* GistFlowUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F63C62F15D1055A0076D92F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kirill Shatrov";
+			};
+			buildConfigurationList = 4F63C63215D1055A0076D92F /* Build configuration list for PBXProject "GistFlowUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F63C62D15D1055A0076D92F;
+			productRefGroup = 4F63C63915D1055A0076D92F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F63C63715D1055A0076D92F /* GistFlowUploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F63C63615D1055A0076D92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F63C64715D1055A0076D92F /* InfoPlist.strings in Resources */,
+				4F63C64D15D1055A0076D92F /* Credits.rtf in Resources */,
+				4F63C65315D1055A0076D92F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F63C63415D1055A0076D92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F63C64915D1055A0076D92F /* main.m in Sources */,
+				4F63C65015D1055A0076D92F /* AppDelegate.m in Sources */,
+				4F24521215D30CD500438B76 /* PushController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F63C64515D1055A0076D92F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F63C64615D1055A0076D92F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F63C64B15D1055A0076D92F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F63C64C15D1055A0076D92F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4F63C65115D1055A0076D92F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F63C65215D1055A0076D92F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F63C65415D1055A0076D92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F63C65515D1055A0076D92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F63C65715D1055A0076D92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloButtons/GistFlowUploader-Prefix.pch";
+				INFOPLIST_FILE = "HelloButtons/GistFlowUploader-Info.plist";
+				PRODUCT_NAME = GistFlowUploader;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F63C65815D1055A0076D92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloButtons/GistFlowUploader-Prefix.pch";
+				INFOPLIST_FILE = "HelloButtons/GistFlowUploader-Info.plist";
+				PRODUCT_NAME = GistFlowUploader;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F63C63215D1055A0076D92F /* Build configuration list for PBXProject "GistFlowUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F63C65415D1055A0076D92F /* Debug */,
+				4F63C65515D1055A0076D92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F63C65615D1055A0076D92F /* Build configuration list for PBXNativeTarget "GistFlowUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F63C65715D1055A0076D92F /* Debug */,
+				4F63C65815D1055A0076D92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F63C62F15D1055A0076D92F /* Project object */;
+}
