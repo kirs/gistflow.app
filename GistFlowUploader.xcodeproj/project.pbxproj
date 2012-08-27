@@ -32,6 +32,7 @@
 		4F63C64E15D1055A0076D92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F63C64F15D1055A0076D92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4F63C65215D1055A0076D92F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4FC7603915E9753900F0976E /* GistFlowUploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GistFlowUploader.entitlements; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		4F63C64215D1055A0076D92F /* GistFlowUploader */ = {
 			isa = PBXGroup;
 			children = (
+				4FC7603915E9753900F0976E /* GistFlowUploader.entitlements */,
 				4F24521015D30CD500438B76 /* PushController.h */,
 				4F24521115D30CD500438B76 /* PushController.m */,
 				4F63C64E15D1055A0076D92F /* AppDelegate.h */,
@@ -264,6 +266,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloButtons/GistFlowUploader-Prefix.pch";
 				INFOPLIST_FILE = "HelloButtons/GistFlowUploader-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = GistFlowUploader;
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloButtons/GistFlowUploader-Prefix.pch";
 				INFOPLIST_FILE = "HelloButtons/GistFlowUploader-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = GistFlowUploader;
 				WRAPPER_EXTENSION = app;
 			};

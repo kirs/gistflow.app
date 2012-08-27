@@ -19,8 +19,8 @@
 @property (strong) IBOutlet NSTextView *codeField;
 @property (strong) IBOutlet NSTextField *titleField;
 @property (strong) IBOutlet NSButton *publishButton;
-@property (weak) IBOutlet NSProgressIndicator *publishProgressIndicator;
-@property (weak) IBOutlet NSTextField *copiedNotice;
+@property (strong) IBOutlet NSProgressIndicator *publishProgressIndicator;
+@property (strong) IBOutlet NSTextField *copiedNotice;
 
 - (IBAction)publish:(id)sender;
 - (void)copyToClipboard:(NSString *)value;
